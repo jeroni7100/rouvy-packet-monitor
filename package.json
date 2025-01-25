@@ -1,0 +1,32 @@
+{
+  "name": "pg-rouvy-packet-monitor",
+  "version": "0.0.0",
+  "description": "Rouvy UDP packet monitor",
+  "homepage": "https://github.com/pedalgames/pg-rouvy-packet-monitor#readme",
+  "bugs": {
+    "url": "https://github.com/pedalgames/pg-rouvy-packet-monitor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedalgames/pg-rouvy-packet-monitor.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "RouvyPacketMonitor.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "overrides": {
+    "nan": "2.22.0"
+  },
+  "dependencies": {
+    "cap": "^0.2.1"
+  },
+  "devDependencies": {
+    "internal-ip": "^3.0.1"
+  }
+}
