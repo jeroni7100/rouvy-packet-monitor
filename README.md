@@ -21,7 +21,7 @@ You must make the following OS specific setup of your computer:
 ### Windows
 
 
-You must install [Npcap](https://nmap.org/npcap/) on your PC.
+You must install [Npcap](https://nmap.org/npcap/) with WinPcap compatibility on your PC.
 
 This will let the application capture network traffic (from next time you start it).
 
