@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/jeroni7100/rouvy-packet-monitor.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "author": "",
   "type": "commonjs",
   "main": "RouvyPacketMonitor.js",
