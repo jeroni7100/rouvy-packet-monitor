@@ -1,14 +1,14 @@
 {
-  "name": "pg-rouvy-packet-monitor",
+  "name": "rouvy-packet-monitor",
   "version": "0.0.0",
   "description": "Rouvy UDP packet monitor",
-  "homepage": "https://github.com/pedalgames/pg-rouvy-packet-monitor#readme",
+  "homepage": "https://github.com/jeroni7100/rouvy-packet-monitor#readme",
   "bugs": {
-    "url": "https://github.com/pedalgames/pg-rouvy-packet-monitor/issues"
+    "url": "https://github.com/jeroni7100/rouvy-packet-monitor/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pedalgames/pg-rouvy-packet-monitor.git"
+    "url": "git+https://github.com/jeroni7100/rouvy-packet-monitor.git"
   },
   "license": "ISC",
   "author": "",
