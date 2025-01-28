@@ -90,7 +90,18 @@ class RGTPacketMonitor extends EventEmitter {
               speed: speed,
               speedKmh: speed * 3.6,
               power: power,
-              cadence: cadence
+              cadence: cadence,
+              units: {
+                distance: 'm',
+                speed: 'm/s',
+                speedKmh: 'km/h',
+                power: 'W',
+                cadence: 'rpm'
+              },
+              packetInfo: {
+                source: 'rouvy',
+                seqNo: packetnum
+              }
             }
           }
           

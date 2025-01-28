@@ -1,6 +1,6 @@
 {
   "name": "rouvy-packet-monitor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Rouvy UDP packet monitor",
   "homepage": "https://github.com/jeroni7100/rouvy-packet-monitor#readme",
   "bugs": {
