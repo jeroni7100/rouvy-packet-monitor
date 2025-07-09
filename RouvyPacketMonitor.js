@@ -12,7 +12,7 @@ try {
 
 const buffer = new Buffer.alloc(65535)
 
-class RGTPacketMonitor extends EventEmitter {
+class RouvyPacketMonitor extends EventEmitter {
   constructor (interfaceName) {
     super()
     this._cap = new Cap()
@@ -75,6 +75,10 @@ class RGTPacketMonitor extends EventEmitter {
           var speed = buffer.readUIntLE(0x17, 2) / 10 // m/s
           var power = buffer.readUIntLE(0x19, 2)
           var cadence = buffer.readUIntLE(0x1b, 1)
+
+          if (cadence == 255) {
+            cadence = 0
+          }
           
           var rouvyPacket = null
         
@@ -154,5 +158,5 @@ class RGTPacketMonitor extends EventEmitter {
 }
 
 
-module.exports = RGTPacketMonitor
+module.exports = RouvyPacketMonitor
 
