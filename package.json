@@ -14,11 +14,19 @@
   "author": "",
   "type": "commonjs",
   "main": "RouvyPacketMonitor.js",
+  "exports": {
+    ".": {
+      "import": "./RouvyPacketMonitor.mjs",
+      "require": "./RouvyPacketMonitor.js"
+    },
+    "./package.json": "./package.json"
+  },
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:smoke": "node test/smoke-cjs.js ; node test/smoke-esm.mjs"
   },
   "overrides": {
     "nan": "2.22.0"
