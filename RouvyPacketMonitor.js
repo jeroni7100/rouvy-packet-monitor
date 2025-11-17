@@ -7,7 +7,7 @@ try {
   var Cap = require('cap').Cap;
   var decoders=require('cap').decoders, PROTOCOL=decoders.PROTOCOL
 } catch (e) {
-  throw new Error('Probably missing Npcap/libpcap')
+  throw new Error('Probably missing Npcap/libpcap', { cause: e });
 }
 
 const buffer = new Buffer.alloc(65535)
