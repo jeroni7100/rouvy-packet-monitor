@@ -29,12 +29,12 @@
     "test:smoke": "node test/smoke-cjs.js ; node test/smoke-esm.mjs"
   },
   "overrides": {
-    "nan": "2.22.0"
+    "nan": "2.25.0"
   },
   "dependencies": {
     "cap": "^0.2.1"
   },
   "devDependencies": {
-    "internal-ip": "^3.0.1"
+    "network-default-gateway": "^1.4.0"
   }
 }
